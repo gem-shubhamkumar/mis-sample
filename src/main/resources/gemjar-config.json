@@ -1,0 +1,28 @@
+{
+  "environment": "prod",
+  "projectName": "MIS",
+  "gemjarSubID": "test_id",
+  "gemjarUserName": "username",
+  "reportLocation": "",
+  "tagName": "",
+  "gemjarToken": "my-jewel-token",
+  "jewelEntryUrl": "https://apis.gemecosystem.com/enter-point",
+  "glueCode":"com.qa.mis.stepdefinitions",
+  "feature": "src/main/resources/features",
+  "scenario": "",
+  "dev": {
+    "browserName": "firefox",
+    "launchUrl": "url",
+    "browserTimeout": 100
+  },
+  "prod": {
+    "browserName": "chrome",
+    "launchUrl": "https://mymis.geminisolutions.com",
+    "browserTimeout": 100
+  },
+  "beta": {
+    "browserName": "chrome",
+    "launchUrl": "https://mymis.geminisolutions.com",
+    "browserTimeout": 100
+  }
+}
